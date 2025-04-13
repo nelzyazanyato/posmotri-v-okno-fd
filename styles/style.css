@@ -48,7 +48,7 @@ html {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  min-height: 54px;
+  padding-top: 4px;
 }
 
 .content__list-container {
@@ -132,7 +132,6 @@ html {
 }
 
 .content__accent {
-  min-height: 210px;
   color: #545050;
 }
 
@@ -195,7 +194,7 @@ html {
 }
 
 .search-form__textfield {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
@@ -215,7 +214,7 @@ html {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: solid #ffffff;
+  outline: 1px solid #ffffff;
   outline-offset: 1px;
 }
 
@@ -223,7 +222,7 @@ html {
   cursor: pointer;
 }
 
-.search-form__label .search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -253,7 +252,7 @@ html {
 .button {
   border: 1px solid #ffffff;
   background-color: transparent;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
